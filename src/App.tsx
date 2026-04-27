@@ -25,9 +25,8 @@ const Navbar = () => {
 };
 
 const Countdown = () => {
-  // Set target to 2 days and 20 hours from the current moment of implementation
-  // Target: 2026-04-30T21:59:24 (approx based on current local time)
-  const targetDate = new Date("2026-04-30T21:59:24Z").getTime();
+  // Set target to exactly 2 days and 20 hours from current global time
+  const targetDate = new Date("2026-04-30T15:00:00Z").getTime();
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   useEffect(() => {
