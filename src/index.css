@@ -1,0 +1,92 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+    --font-heading: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+:root {
+    --background: #D11013;
+    --foreground: #ffffff;
+    --card: #ffffff;
+    --card-foreground: #D11013;
+    --popover: #ffffff;
+    --popover-foreground: #D11013;
+    --primary: #ffffff; 
+    --primary-foreground: #D11013;
+    --secondary: #4B2C20;
+    --secondary-foreground: #ffffff;
+    --muted: rgba(255, 255, 255, 0.2);
+    --muted-foreground: rgba(255, 255, 255, 0.8);
+    --accent: #4B2C20;
+    --accent-foreground: #ffffff;
+    --destructive: #7f1d1d;
+    --border: rgba(255, 255, 255, 0.3);
+    --input: rgba(255, 255, 255, 0.3);
+    --ring: #ffffff;
+    --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+    -webkit-font-smoothing: antialiased;
+    }
+  body {
+    @apply bg-background text-foreground selection:bg-white selection:text-background;
+    }
+  html {
+    @apply font-sans scroll-smooth;
+    }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight uppercase;
+  }
+}
+
+.kitcat-logo-container {
+  background: white;
+  padding: 8px 24px;
+  border-radius: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid #D11013;
+  box-shadow: 0 4px 0 rgba(0,0,0,0.1);
+}
+
+.kitcat-logo-text {
+  color: #D11013;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2rem;
+  letter-spacing: -0.05em;
+}
+
+.kitcat-h1 {
+  font-size: clamp(60px, 12vw, 140px);
+  line-height: 0.9;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+}
+
+.kitcat-tagline {
+  font-size: 18px;
+  text-transform: none;
+  letter-spacing: -0.02em;
+  color: white;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.chocolate-card {
+  background: #4B2C20;
+  border: 4px solid #3A2219;
+  border-radius: 12px;
+  box-shadow: 8px 8px 0 rgba(0,0,0,0.2);
+}
