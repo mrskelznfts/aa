@@ -7,35 +7,21 @@
 @theme inline {
     --font-heading: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+    --color-background: #D11013;
+    --color-foreground: #ffffff;
+    --color-primary: #ffffff;
+    --color-secondary: #4B2C20;
+    --color-muted: rgba(255, 255, 255, 0.2);
+    --color-accent: #4B2C20;
 }
 
 :root {
     --background: #D11013;
     --foreground: #ffffff;
-    --card: #ffffff;
-    --card-foreground: #D11013;
-    --popover: #ffffff;
-    --popover-foreground: #D11013;
-    --primary: #ffffff; 
-    --primary-foreground: #D11013;
-    --secondary: #4B2C20;
-    --secondary-foreground: #ffffff;
-    --muted: rgba(255, 255, 255, 0.2);
-    --muted-foreground: rgba(255, 255, 255, 0.8);
-    --accent: #4B2C20;
-    --accent-foreground: #ffffff;
-    --destructive: #7f1d1d;
-    --border: rgba(255, 255, 255, 0.3);
-    --input: rgba(255, 255, 255, 0.3);
-    --ring: #ffffff;
-    --radius: 0.5rem;
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-    -webkit-font-smoothing: antialiased;
-    }
   body {
     @apply bg-background text-foreground selection:bg-white selection:text-background;
     }

@@ -14,9 +14,7 @@ const Navbar = () => {
       animate={{ opacity: 1 }}
       className="absolute top-6 left-10 md:left-20 z-50 flex items-center gap-10"
     >
-      <div className="kitcat-logo-container">
-        <span className="kitcat-logo-text">KitCat</span>
-      </div>
+      <img src="/logo.png" alt="KitCat Logo" className="h-16 w-auto" />
       <div className="hidden md:flex gap-8">
         <a href="#story" className="text-xs font-bold uppercase tracking-widest text-white/80 hover:text-white transition-colors">Break</a>
         <a href="#gallery" className="text-xs font-bold uppercase tracking-widest text-white/80 hover:text-white transition-colors">Collection</a>
@@ -257,10 +255,8 @@ const Roadmap = () => {
 
 const Footer = () => {
   return (
-    <footer className="py-12 px-6 border-t border-white/20 text-center">
-      <div className="kitcat-logo-container mb-8">
-        <span className="kitcat-logo-text">KitCat</span>
-      </div>
+    <footer className="py-12 px-6 border-t border-white/20 text-center flex flex-col items-center">
+      <img src="/logo.png" alt="KitCat Logo" className="h-20 w-auto mb-8" />
       <p className="text-white/60 text-xs font-bold uppercase tracking-widest mb-8">HAVE A BREAK. HAVE A KITCAT.</p>
       <div className="flex justify-center gap-8">
         {[Twitter, MessageCircle, Globe].map((Icon, i) => (
