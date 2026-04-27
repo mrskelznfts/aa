@@ -155,17 +155,17 @@ const Story = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-6xl font-heading font-bold mb-8 leading-tight text-white">
-            Snap into the <span className="underline decoration-white underline-offset-8">Future</span>
+            SNAP INTO THE <span className="underline decoration-white underline-offset-8">SYSTEM</span>
           </h2>
           <div className="space-y-6 text-white/90 text-lg leading-relaxed">
             <p>
-              Life in the digital age is a non-stop grind. We believe everyone deserves a moment to snap away from the noise. KitCat isn't just an NFT; it's your ticket to a global community of breakers.
+              The world doesn’t slow down, it never did, so something inside it broke, and from that fracture, 911 entities slipped through, adapting, learning, and moving silently across the network. KitCat isn’t just an NFT, it’s your access point into a live AI-driven system where every action, every outcome, and every interaction feeds into a loop that never stops evolving.
             </p>
             <p className="italic border-l-4 border-white pl-6 py-2 text-white font-bold">
-              "Have a break, have a KitCat. We're bringing the crunch back to the blockchain."
+              “Have a break, have a KitCat” was never meant to go this far, but now the break watches back, responds, and pulls you deeper, where probability bends, intelligence reacts in real time, and the line between player and system disappears.
             </p>
             <p>
-              Join 3,333 visionaries who know that the best ideas happen during a break. Each KitCat is a unique piece of digital chocolate, crafted with precision and a lot of love.
+              You don’t just hold anymore, you don’t just observe, you step in, you play, and whether you realize it or not, you’ve already become part of the system.
             </p>
           </div>
         </motion.div>
@@ -193,18 +193,18 @@ const Roadmap = () => {
   const phases = [
     {
       number: "1",
-      title: "Phase 1: The Snap",
-      items: ["Community building", "Genesis launch", "Secondary market", "Breaker roles"]
+      title: "PHASE 1 — THE BREAK",
+      items: ["Community activation", "Genesis launch (911 supply)", "GTD free mint distribution", "First system access"]
     },
     {
       number: "2",
-      title: "Phase 2: The Crunch",
-      items: ["Brand partnerships", "Holder rewards", "Breakroom beta", "Governance"]
+      title: "PHASE 2 — THE LOOP",
+      items: ["AI system goes live", "Casino mechanics unlocked", "NFT boosts & progression", "Early token integration"]
     },
     {
       number: "3",
-      title: "Phase 3: The Box",
-      items: ["Full ecosystem", "$CRUNCH token", "Physical merch", "Global events"]
+      title: "PHASE 3 — THE ECONOMY",
+      items: ["Full ecosystem expansion", "$KITCAT token launch", "Advanced gameplay + PvP", "Global scaling"]
     }
   ];
 
