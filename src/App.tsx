@@ -68,11 +68,11 @@ const Hero = () => {
         transition={{ duration: 0.6 }}
         className="relative z-10"
       >
-        <p className="kitcat-tagline mb-6">Have a break, have a KitCat</p>
-        <h1 className="kitcat-h1 mb-2">CRUNCHY</h1>
-        <h1 className="kitcat-h1 mb-6">COLLECTIVE</h1>
-        <p className="text-lg md:text-xl font-medium text-white/90 max-w-md mx-auto leading-relaxed">
-          The first Web3 ecosystem designed for the ultimate break. 3,333 unique chocolate-themed felines ready to snap.
+        <p className="kitcat-tagline mb-6">Have a break. Have a KitCat.</p>
+        <h1 className="kitcat-h1 mb-6">KITCAT</h1>
+        <p className="text-lg md:text-xl font-medium text-white/90 max-w-xl mx-auto leading-relaxed">
+          It starts with a break. It evolves into a loop. It becomes an economy.<br />
+          911 KitCats ready to snap into an AI-powered system where NFTs, tokens, and gameplay connect.
         </p>
         <div className="flex flex-col items-center mt-12">
           <span className="text-[10px] font-bold tracking-[0.4em] text-white/80 mb-4 uppercase">SNAP STARTS IN</span>
