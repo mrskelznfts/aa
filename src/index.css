@@ -23,8 +23,13 @@
 
 @layer base {
   body {
-    @apply bg-background text-foreground selection:bg-white selection:text-background;
+    background-color: var(--background);
+    color: var(--foreground);
     }
+  ::selection {
+    background-color: white;
+    color: var(--background);
+  }
   html {
     @apply font-sans scroll-smooth;
     }
